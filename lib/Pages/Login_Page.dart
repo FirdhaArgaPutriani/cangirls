@@ -88,9 +88,6 @@ class _LoginState extends State<Login> {
               hintText: "Username",
               hoverColor: Color(0xFFFF9DEF),
             ),
-            /*style: TextStyle(
-              color: Colors.pinkAccent,
-            ),*/
           ),
           const SizedBox(
             height: 26.0,
@@ -139,7 +136,7 @@ class _LoginState extends State<Login> {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: const <Widget>[
-                Text('Don’t have an account?'),
+                Text('Dont have an account?'),
                 Text(
                   ' Register',
                   style: TextStyle(color: Color(0xFFFF9DEF)),
